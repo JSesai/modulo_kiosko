@@ -17,15 +17,11 @@ export const metadata: Metadata = {
   description: "Modulo de kiosko de comida",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.className} bg-gray-100 `}
       >
         {children}
       </body>
