@@ -1,0 +1,18 @@
+'use client'
+import { useStore } from "@/src/store";
+import { Product } from "@/app/generated/prisma";
+
+
+
+export default function AddProductButton({ product }: { product: Product }) {
+    const { addTocart } = useStore((store) => store);
+    return (
+        <button
+            onClick={() => addTocart(product)}
+            className="bg-indigo-600 hover:bg-indigo-800 text-white w-full mt-5 p-3 uppercase font-bold cursor-pointer"
+        >
+            Agregar
+        </button>
+
+    )
+}

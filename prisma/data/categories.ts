@@ -1,26 +1,32 @@
 export const categories = [
-    {
-        slug: "cafe",
-        name: "Café"
-      },
-      {
-        slug: "hamburguesa",
-        name: "Hamburguesas"
-      },
-      {
-        slug: "pizza",
-        name: "Pizzas"
-      },
-      {
-        slug: "dona",
-        name: "Donas"
-      },
-      {
-        slug: "pastel",
-        name: "Pasteles"
-      },
-      {
-        slug: "galletas",
-        name: "Galletas"
-      }
+  {
+    id: 1,
+    slug: "cafe",
+    name: "Café"
+  },
+  {
+    id: 2,
+    slug: "hamburguesa",
+    name: "Hamburguesas"
+  },
+  {
+    id: 3,
+    slug: "pizza",
+    name: "Pizzas"
+  },
+  {
+    id: 4,
+    slug: "dona",
+    name: "Donas"
+  },
+  {
+    id: 5,
+    slug: "pastel",
+    name: "Pasteles"
+  },
+  {
+    id: 6,
+    slug: "galletas",
+    name: "Galletas"
+  }
 ]
